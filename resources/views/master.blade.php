@@ -5,6 +5,7 @@
     <style media="screen">
       body{
         background-color: yellow;
+      }
     </style>
     </head>
     <body>
