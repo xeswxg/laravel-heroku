@@ -6,6 +6,7 @@
   </head>
   <body>
     <h1>View Data :</h1>
-    <h2><?= $name ?></h2>
+    <h2>{{$name}}</h2>
+    <p>{{$title}}</p>
   </body>
 </html>
