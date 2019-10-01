@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Show View</title>
-  </head>
-  <body>
-    <h1>View Data :</h1>
-    <h2>{{$name}}</h2>
-    <p>{{$title}}</p>
-  </body>
-</html>
+@extends('master')
+@section('title','Welcome UserView')
+@section('content')
+    <h1>{{$name}}</h1>
+    <h2>{{$title}}</h2>
+@stop
